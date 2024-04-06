@@ -163,8 +163,8 @@
   margin: -40px auto 0 auto;
 }
 
-@media (min-width: 768px) {
-  .responsive-three-columns > * {
-    width: calc(100% / 3);
+@media only screen and (max-width: 860px) {
+  .body-wrap {
+    width: 100%;
   }
 }
