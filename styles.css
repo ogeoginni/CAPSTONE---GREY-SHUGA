@@ -79,22 +79,27 @@
   border-color: #9e1a26;
 }
 
-.responsive-three-columns {
-  display: flex;
-  flex-wrap: wrap;
-}
-.responsive-three-columns > * {
-  width: 100%;
-  padding: 1rem;
+.shuga-offerings {
+  margin-top: -120px;
 }
 
 .column-type-a {
-  background-color: #b61124;
+  background-color: #a6142c;
   color: #ffffff;
 }
 
 .column-type-b {
   background-color: #ec8087;
+  color: #9e1a26;
+}
+
+.card-text-a,
+.card-title-a {
+  color: white;
+}
+
+.card-text-b,
+.card-title-b {
   color: #9e1a26;
 }
 
