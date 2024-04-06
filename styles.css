@@ -4,6 +4,17 @@
   background-color: #feb2b2;
 }
 
+.homepage-main-wrap {
+  margin-left: 118.5px;
+  margin-right: 118.5px;
+}
+
+.navbar,
+.nav-link,
+.navbar-brand {
+  color: #9e1a26;
+}
+
 .column {
   float: left;
   width: 25%;
@@ -30,7 +41,6 @@ body {
   margin-top: 60px;
 }
 .testimonials .card i {
-  background-color: #007bff;
   color: #ffffff;
   width: 75px;
   height: 75px;
@@ -51,32 +61,54 @@ body {
   padding-left: 20px;
 }
 
-.card-1 {
-  width: 1094px;
+.container-a {
+  text-align: left;
+  width: 677px;
+  height: 520px;
+}
+
+.header-headline {
+  text-align: left;
+  width: 677px;
+  width: fit-content;
+  margin-left: 118.5px;
+  color: #9e1a26;
+}
+
+.header-text {
+  width: 677px;
+  width: fit-content;
+  text-align: left;
+  margin-left: 118.5px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 16px;
+  color: #471b14;
+}
+
+.headerImage {
+  width: 522.48px;
   height: 558px;
-  text-align: center;
-  width: fit-content;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  display: flex;
+  flex-shrink: 0;
+  float: right;
+  margin-top: -554.5px;
+  margin-bottom: 114.5px;
+  margin-left: -860px;
+  margin-right: 190px;
 }
 
-.hero-headline {
-  text-align: center;
-  width: 1094px;
-  height: 174px;
-  width: fit-content;
-}
-
-.hero-text {
-  width: 923px;
-  height: 108px;
-  width: fit-content;
-  text-align: center;
-}
-
-.orderButton {
+.OrderButton {
   width: 255px;
   height: 44px;
+  text-align: center;
+  background-color: #9e1a26;
+  color: #ffffff;
+  margin-left: 118.5px;
+  border-radius: 12px;
+  border-color: #9e1a26;
 }
 
 .responsive-three-columns {
@@ -96,6 +128,42 @@ body {
 .column-type-b {
   background-color: #ec8087;
   color: #9e1a26;
+}
+
+.hero {
+  width: 1273px;
+  height: 746px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 118.5px;
+  margin-right: 118.5px;
+}
+
+.heroHeading {
+  color: #9e1a26;
+  width: 624.5px;
+  height: 317px;
+}
+
+.heroSectionText {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 624.5px;
+  height: 17px;
+  margin-top: 214.5px;
+  margin-bottom: 214.5px;
+}
+
+.heroImage {
+  width: 624.5px;
+  height: 546px;
+  display: flex;
+  flex-shrink: 0;
+  float: right;
+  margin-top: -354.5px;
+  margin-bottom: 114.5px;
 }
 
 @media (min-width: 768px) {
