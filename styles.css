@@ -1,0 +1,105 @@
+.body-wrap {
+  width: 1512px;
+  height: 4090px;
+  background-color: #feb2b2;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.testimonials {
+  padding: 100px 0;
+}
+.testimonials h3 {
+  margin-bottom: 20px;
+}
+.testimonials .card {
+  border-bottom: 3px #007bff solid !important;
+  transition: 0.5s;
+  margin-top: 60px;
+}
+.testimonials .card i {
+  background-color: #007bff;
+  color: #ffffff;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  margin: -40px auto 0 auto;
+}
+
+.icon {
+  width: 24px;
+  height: 22px;
+}
+
+.user-logo {
+  padding-left: 30px;
+}
+
+.cart-logo {
+  padding-left: 20px;
+}
+
+.card-1 {
+  width: 1094px;
+  height: 558px;
+  text-align: center;
+  width: fit-content;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.hero-headline {
+  text-align: center;
+  width: 1094px;
+  height: 174px;
+  width: fit-content;
+}
+
+.hero-text {
+  width: 923px;
+  height: 108px;
+  width: fit-content;
+  text-align: center;
+}
+
+.orderButton {
+  width: 255px;
+  height: 44px;
+}
+
+.responsive-three-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+.responsive-three-columns > * {
+  width: 100%;
+  padding: 1rem;
+}
+
+.column-type-a {
+  background-color: #b61124;
+  color: #ffffff;
+}
+
+.column-type-b {
+  background-color: #ec8087;
+  color: #9e1a26;
+}
+
+@media (min-width: 768px) {
+  .responsive-three-columns > * {
+    width: calc(100% / 3);
+  }
+}
