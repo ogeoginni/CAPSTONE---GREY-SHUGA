@@ -1,3 +1,7 @@
+body {
+    font-family:  "Nunito";
+}
+
 .form-control {
   box-shadow: none;
   font-weight: normal;
@@ -82,26 +86,6 @@
   position: relative;
   top: 1px;
 }
-@media (min-width: 1200px) {
-  .form-inline .input-group {
-    width: 300px;
-    margin-left: 30px;
-  }
-}
-@media (max-width: 768px) {
-  .navbar .dropdown-menu.action-form {
-    width: 100%;
-    padding: 10px 15px;
-    background: transparent;
-    border: none;
-  }
-  .navbar .form-inline {
-    display: block;
-  }
-  .navbar .input-group {
-    width: 100%;
-  }
-}
 
 .about-body-wrap {
   margin-left: 118.5px;
@@ -123,8 +107,17 @@
   height: 908px;
 }
 
-.choices .row {
-  column-gap: 240px;
+.choices-header h3 {
+    text-align: center;
+}
+
+.choices-container {
+   text-align: justify;
+    margin-right: -600px;
+}
+
+.choices-column .card {
+    height: 225px;
 }
 
 .your-choice {
@@ -136,11 +129,6 @@
 
 .choices .card {
   background-color: #fff3f9;
-}
-
-.our-values .row {
-  width: 539px;
-  height: 225px;
 }
 
 .tagline .card {
@@ -200,4 +188,26 @@
 
 hr {
   height: 1px;
+}
+
+
+@media (min-width: 1200px) {
+  .form-inline .input-group {
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .dropdown-menu.action-form {
+    width: 100%;
+    padding: 10px 15px;
+    background: transparent;
+    border: none;
+  }
+  .navbar .form-inline {
+    display: block;
+  }
+  .navbar .input-group {
+    width: 100%;
+  }
 }
