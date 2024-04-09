@@ -233,6 +233,14 @@ body {
   opacity: 1;
 }
 
+.fa {
+  color: #ffffff;
+}
+
+hr {
+  height: 1px;
+}
+
 @media only screen and (max-width: 860px) {
   .body-wrap {
     width: 100%;
