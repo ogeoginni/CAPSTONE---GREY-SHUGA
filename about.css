@@ -1,0 +1,203 @@
+.form-control {
+  box-shadow: none;
+  font-weight: normal;
+  font-size: 13px;
+}
+.navbar {
+  background: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #dfe3e8;
+  border-radius: 0;
+}
+.navbar .navbar-brand {
+  padding-left: 0;
+  font-size: 20px;
+  padding-right: 50px;
+}
+.navbar .navbar-brand b {
+  color: #33cabb;
+}
+.navbar .form-inline {
+  display: inline-block;
+}
+.navbar a {
+  color: #888;
+  font-size: 15px;
+}
+
+.navbar .sign-up-btn {
+  min-width: 110px;
+  max-height: 36px;
+}
+.navbar .dropdown-menu {
+  color: #999;
+  font-weight: normal;
+  border-radius: 1px;
+  border-color: #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.navbar a,
+.navbar a:active {
+  color: #888;
+  padding: 8px 20px;
+  background: transparent;
+  line-height: normal;
+}
+.navbar .navbar-form {
+  border: none;
+}
+.navbar .action-form {
+  width: 280px;
+  padding: 20px;
+  left: auto;
+  right: 0;
+  font-size: 14px;
+}
+.navbar .action-form a {
+  color: #a71b3b;
+  padding: 0 !important;
+  font-size: 14px;
+}
+.navbar .action-form .hint-text {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.navbar .btn-primary,
+.navbar .btn-primary:active {
+  color: #fff;
+  background: #a71b3b !important;
+  border: none;
+}
+.navbar .btn-primary:hover,
+.navbar .btn-primary:focus {
+  color: #fff;
+  background: #31bfb1 !important;
+}
+.navbar .action-buttons .dropdown-toggle::after {
+  display: none;
+}
+.form-check-label input {
+  position: relative;
+  top: 1px;
+}
+@media (min-width: 1200px) {
+  .form-inline .input-group {
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .dropdown-menu.action-form {
+    width: 100%;
+    padding: 10px 15px;
+    background: transparent;
+    border: none;
+  }
+  .navbar .form-inline {
+    display: block;
+  }
+  .navbar .input-group {
+    width: 100%;
+  }
+}
+
+.about-body-wrap {
+  margin-left: 118.5px;
+  margin-right: 118.5px;
+}
+
+.company-name {
+  color: #a71b3b;
+}
+
+.about-summary {
+  width: 650px;
+  height: 342px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.choices-header {
+  height: 908px;
+}
+
+.choices .row {
+  column-gap: 240px;
+}
+
+.your-choice {
+  margin-left: 237px;
+  margin-right: 237px;
+  width: 539px;
+  height: 266px;
+}
+
+.choices .card {
+  background-color: #fff3f9;
+}
+
+.our-values .row {
+  width: 539px;
+  height: 225px;
+}
+
+.tagline .card {
+  text-align: center;
+  background-color: #e4b8c2;
+}
+
+.tagline img {
+  display: block;
+  margin: auto;
+}
+
+.shop-content {
+  color: #ffffff;
+}
+
+.shop-button {
+  background-color: #a71b3b;
+  color: #ffffff;
+  border-radius: 10px;
+  border-color: #a71b3b;
+  padding: 10px 10px;
+  font-size: 12px;
+  width: 59px;
+  height: 36px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.footer-container {
+  color: #ffffff;
+  background: repeating-linear-gradient(
+    to right,
+    #570811 0px,
+    #570811 40px,
+    #3a0914 40px,
+    #3a0914 50px
+  );
+}
+
+#emailInput {
+  background-color: transparent;
+  border-color: #ffffff;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+#emailInput::placeholder {
+  color: #c4c4c4;
+  opacity: 1;
+}
+
+.fa {
+  color: #ffffff;
+}
+
+hr {
+  height: 1px;
+}
