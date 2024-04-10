@@ -107,10 +107,14 @@ body {
 .choices-container {
   text-align: justify;
   margin-right: -600px;
+  margin-top: 80px;
 }
 
-.choices-column .card {
-  height: 225px;
+.choices-container .card {
+  height: 200px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .your-choice {
@@ -122,11 +126,16 @@ body {
 
 .choices .card {
   background-color: #fff3f9;
+  height: 200px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
 .tagline .card {
   text-align: center;
   background-color: #e4b8c2;
+  margin-top: 180px;
 }
 
 .tagline img {
