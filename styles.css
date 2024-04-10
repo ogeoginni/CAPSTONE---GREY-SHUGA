@@ -234,6 +234,10 @@ hr {
   height: 1px;
 }
 
+.faq-body {
+  text-align: center;
+}
+
 .accordion {
   cursor: pointer;
   padding: 18px;
@@ -245,8 +249,9 @@ hr {
   background-color: transparent;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc; 
+.active,
+.accordion:hover {
+  background-color: #ccc;
 }
 
 .panel {
@@ -254,8 +259,6 @@ hr {
   display: none;
   overflow: hidden;
 }
-
-
 
 @media only screen and (max-width: 860px) {
   .body-wrap {
