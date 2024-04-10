@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body,
 .body-wrap {
   width: 1512px;
@@ -259,6 +263,52 @@ hr {
   display: none;
   overflow: hidden;
 }
+
+.contact-info .contact-card {
+    color: #ffffff;
+      background: repeating-linear-gradient(
+    to right,
+    #b41731 0px,
+    #b41731 40px,
+    #a71b3b 40px,
+    #a71b3b 50px
+  );
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #b41731;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ec8087;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 @media only screen and (max-width: 860px) {
   .body-wrap {
