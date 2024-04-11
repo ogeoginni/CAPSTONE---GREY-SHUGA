@@ -275,6 +275,9 @@ hr {
     margin-bottom: 50px;
 }
 
+.contact-details {
+    margin-left: 20px;
+}
 
 .contact-main-heading {
     color: #981327;
@@ -377,8 +380,8 @@ input[type=submit]:hover {
 }
 
 
-@media only screen and (max-width: 860px) {
-  .body-wrap {
+@media screen and (max-width: 600px) {
+  .body-wrap, .column, input {
     width: 100%;
   }
 }
