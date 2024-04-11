@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+.body-wrap {
+  width: 1512px;
+  height: 4090px;
+  font-family: "Nunito";
+  background: repeating-linear-gradient(
+    to right,
+    #fed9d9 0px,
+    #fed9d9 40px,
+    #ffffff 40px,
+    #ffffff 50px
+  );
+}
+
+.account-page-wrap {
+  height: 100vh;
+  background: repeating-linear-gradient(
+    to right,
+    #fed9d9 0px,
+    #fed9d9 40px,
+    #ffffff 40px,
+    #ffffff 50px
+  );
+}
+
+.account-page-wrap h3 {
+  color: #570811;
+  text-align: center;
+}
+
+.account-page-wrap p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.account-container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  border: 0.2px solid #f1f1f1;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 16px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.button-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background: repeating-linear-gradient(
+    to right,
+    #b41731 0px,
+    #b41731 40px,
+    #a71b3b 40px,
+    #a71b3b 50px
+  );
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.form-container {
+  text-align: center;
+  margin: 24px 50px 12px;
+}
+
+.container {
+  padding: 16px 0;
+  text-align: left;
+}
+
+span.psw {
+  padding-top: 0;
+  padding-right: 15px;
+}
+
+.block-item {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  margin-left: 258.5px;
+}
+
+.google-signup {
+  margin-left: 20px;
+}
+
+.login-link a {
+  color: #b41731;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
