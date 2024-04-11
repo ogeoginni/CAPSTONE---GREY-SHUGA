@@ -122,45 +122,64 @@
       </nav>
           <section class="contact-header">
         <div style="text-align: center">
-        <h2 class="contact-heading">Contact Us</h2>
-        <p>Any questions or remarks? Just write us a message!</p>
+        <h2  class="contact-main-heading">Contact Us</h2>
+        <p class="contact-tagline">Any questions or remarks? Just write us a message!</p>
         </div>
         </section>
-        <section class="contact-info">
-        <div class="row">
-            <div class="col">
-                <div class="card contact-card">
-                    <h3>Contact Information</h3>
+
+        <div class="contact-container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card contact-card">
+                        <h3>Contact Information</h3>
                     <p>Say something to start a live chat!</p>
                     <p><i class="fa-solid fa-phone-volume"></i><span class="contact-details">+1012 3456 789</span></p>
                     <p><i class="fa-regular fa-envelope"></i><span class="contact-details">demo@gmail.com</span></p>
                     <p><i class="fa-solid fa-location-dot"></i><span class="contact-details">132 Dartmouth Street Boston, Massachusetts 02156 United States</span></p>
-                    <img class="contact-card-image" src="/images/contact-page-cake.png" width="100" height="100" />
+                    <div class="contact-card-image"><img style="text-align:right"  src="/images/contact-page-cake.png" width="150" height="150" />
+                    </div>
                     <div class="social-links">
                         <a href=" " target="_blank" title="Twitter Profile"><i class="fa fa-brands fa-twitter fa-x"></i></a>
          <a href=" " target="_blank" title="Instagram Profile"><i class="fa fa-brands fa-instagram px-3 fa-x" aria-hidden="true"></i></a>
                     </div>
                     </div>
-                <div class="col">
-                    <div class="user-info">
-                        <form action="/action_page.php">
-        <label for="fname">First Name</label>
+                </div>
+                <div class="col-6">
+                    <div class="card user-info">
+                  <form class="user-info" method="post" action="/action_page.php">
+        <div class="flex"><label for="fname">First Name
         <input type="text" id="fname" name="firstname" placeholder="First Name">
-        <label for="lname">Last Name</label>
+        </label>
+        <label for="lname">Last Name
         <input type="text" id="lname" name="lastname" placeholder=" Last Name ">
-        <label for="email">Email</label>
+        </label>
+    </div>
+    <div class="flex">
+        <label for="email">Email
 <input type="text" id="email" name="email" placeholder="Email Address ">
-<label for="phone">Phone Number</label>
-<input type="number" id="phone" name="phone" placeholder="Phone Number ">
+</label>
+<label class="phone-label flex" for="phone">Phone Number</label>
+<span><input type="tel" id="phone" pattern="[+]{1}[0-9]{11,14}" name="phone" size="15" placeholder="Phone Number ">
+ </span>
+</div>
 
-        <label for="subject"> Select Subject</label>
+
+        <label for="subject" class="subject">Select Subject</label>
+<div class="select-subject flex">
+          <label><input type="radio" value="none" name="inquiry" /> General Inquiry</label>
+<label><input type="radio" value="none" name="inquiry" /> General Inquiry</label>
+<label><input type="radio" value="none" name="inquiry" /> General Inquiry</label>
+</div>
         <textarea id="subject" name="subject" placeholder="Write your message" style="height:170px"></textarea>
         <input type="submit" value="Send Message">
       </form>
                     </div>
-                    </div>
                 </div>
-                </section>
+            </div>
+        </div>
+
+
+
                     <br />
                     <br />
 
@@ -168,6 +187,7 @@
             </div>
         </div>
     </section>
+</div>
 
       <br />
         <footer>

@@ -264,7 +264,23 @@ hr {
   overflow: hidden;
 }
 
-.contact-info .contact-card {
+.contact-container {
+    width: 1271px;
+    height: 667px;
+    margin-left: 118.5px;
+    margin-right: 118.5px;
+}
+
+.contact-header {
+    margin-bottom: 50px;
+}
+
+
+.contact-main-heading {
+    color: #981327;
+}
+
+.contact-container .contact-card {
     color: #ffffff;
       background: repeating-linear-gradient(
     to right,
@@ -273,23 +289,74 @@ hr {
     #a71b3b 40px,
     #a71b3b 50px
   );
+  margin-right: 32px;
+  text-align: justify;
+}
+
+.contact-container .user-info {   
+background: none;
+border: none;
+}
+
+.contact-card-image {
+    text-align: right;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-label {
+    margin-left: 60px;
+}
+
+#phone {
+    border: none;
+    background: none;
+}
+
+.subject {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.select-subject {
+    margin-bottom: 20px;
 }
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid;
   margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  resize: none;
+  border-bottom: 1px solid black;
 }
 
+ input[type=tel] {
+  border-bottom: 1px solid black;
+  outline: none;
+ }
+
 input[type=submit] {
-  background-color: #b41731;
-  color: white;
+ background: repeating-linear-gradient(
+    to right,
+    #b41731 0px,
+    #b41731 40px,
+    #a71b3b 40px,
+    #a71b3b 50px
+  );
+  color: #ffffff;
   padding: 12px 20px;
   border: none;
+  border-radius: 15px;
   cursor: pointer;
+  float: right;
 }
 
 input[type=submit]:hover {
