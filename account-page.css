@@ -137,6 +137,11 @@ span.psw {
   color: #b41731;
 }
 
+.button-container a {
+  color: white;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 300px) {
   span.psw {
     display: block;

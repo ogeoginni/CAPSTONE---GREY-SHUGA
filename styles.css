@@ -279,6 +279,24 @@ hr {
     margin-left: 20px;
 }
 
+.user-exclusive {
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #9e1a26;
+    position: relative;
+    left: 120px;
+}
+
+.user-exclusive .icon {
+    position: relative;
+    top: 8px;
+    left: 10px;
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+
 .contact-main-heading {
     color: #981327;
 }
