@@ -10,6 +10,8 @@ body,
 }
 
 .homepage-container {
+    width: 1512px;
+  height: 4090px;
   height: 100vh;
   background: repeating-linear-gradient(
     to right,
@@ -18,6 +20,8 @@ body,
     #ffffff 40px,
     #ffffff 50px
   );
+    margin-left: 118.5px;
+  margin-right: 118.5px;
 }
 
 .homepage-main-wrap {
@@ -295,6 +299,10 @@ hr {
     color: black;
     width: 20px;
     height: 20px;
+}
+
+.user-heading{
+    color: #981327;
 }
 
 .contact-main-heading {
