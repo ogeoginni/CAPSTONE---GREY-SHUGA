@@ -18,6 +18,9 @@ body,
 
 .account-page-wrap,
 .signin-page-wrap {
+  width: 1512px;
+  height: 4090px;
+  font-family: "Nunito";
   height: 100vh;
   background: repeating-linear-gradient(
     to right,
@@ -28,17 +31,19 @@ body,
   );
 }
 
-.account-page-wrap,
+.account-page-wrap h3,
 .signin-page-wrap h3 {
   margin-top: 120px;
   color: #a71b3b;
   text-align: center;
+  font-weight: bold;
 }
 
-.account-page-wrap,
+.account-page-wrap p,
 .signin-page-wrap p {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
+  color: #464545;
 }
 
 .account-container {
@@ -54,6 +59,7 @@ form {
   width: 403px;
   height: 667px;
   margin-top: 85px;
+  color: rgb(79, 77, 77);
 }
 
 input[type="text"],
