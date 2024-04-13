@@ -419,6 +419,18 @@ input[type="submit"]:hover {
   background-color: inherit;
 }
 
+.edit-user-info {
+    color: #b41731;
+    float: right;
+    margin-right: 30px;
+    margin-top: -40px;
+}
+
+.edit-user-info a {
+    color: #b41731;
+    text-decoration: none;
+}
+
 .row li {
   list-style: none;
 }
