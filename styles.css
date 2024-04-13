@@ -10,7 +10,7 @@ body,
 }
 
 .homepage-container {
-    width: 1512px;
+  width: 1512px;
   height: 4090px;
   height: 100vh;
   background: repeating-linear-gradient(
@@ -20,7 +20,7 @@ body,
     #ffffff 40px,
     #ffffff 50px
   );
-    margin-left: 118.5px;
+  margin-left: 118.5px;
   margin-right: 118.5px;
 }
 
@@ -269,49 +269,49 @@ hr {
 }
 
 .contact-container {
-    width: 1271px;
-    height: 667px;
-    margin-left: 118.5px;
-    margin-right: 118.5px;
+  width: 1271px;
+  height: 667px;
+  margin-left: 118.5px;
+  margin-right: 118.5px;
 }
 
 .contact-header {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .contact-details {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .user-exclusive {
-    margin-left: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    color: #9e1a26;
-    position: relative;
-    left: 120px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #9e1a26;
+  position: relative;
+  left: 120px;
 }
 
 .user-exclusive .icon {
-    position: relative;
-    top: 8px;
-    left: 10px;
-    color: black;
-    width: 20px;
-    height: 20px;
+  position: relative;
+  top: 8px;
+  left: 10px;
+  color: black;
+  width: 20px;
+  height: 20px;
 }
 
-.user-heading{
-    color: #981327;
+.user-heading {
+  color: #981327;
 }
 
 .contact-main-heading {
-    color: #981327;
+  color: #981327;
 }
 
 .contact-container .contact-card {
-    color: #ffffff;
-      background: repeating-linear-gradient(
+  color: #ffffff;
+  background: repeating-linear-gradient(
     to right,
     #b41731 0px,
     #b41731 40px,
@@ -322,40 +322,41 @@ hr {
   text-align: justify;
 }
 
-.contact-container .user-info {   
-background: none;
-border: none;
+.contact-container .user-info {
+  background: none;
+  border: none;
 }
 
 .contact-card-image {
-    text-align: right;
-    
+  text-align: right;
 }
 
 .flex {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .phone-label {
-    margin-left: 60px;
+  margin-left: 60px;
 }
 
 #phone {
-    border: none;
-    background: none;
+  border: none;
+  background: none;
 }
 
 .subject {
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .select-subject {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-input[type=text], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   margin-top: 6px;
@@ -367,13 +368,13 @@ input[type=text], select, textarea {
   border-bottom: 1px solid black;
 }
 
- input[type=tel] {
+input[type="tel"] {
   border-bottom: 1px solid black;
   outline: none;
- }
+}
 
-input[type=submit] {
- background: repeating-linear-gradient(
+input[type="submit"] {
+  background: repeating-linear-gradient(
     to right,
     #b41731 0px,
     #b41731 40px,
@@ -388,7 +389,7 @@ input[type=submit] {
   float: right;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: #ec8087;
 }
 
@@ -405,9 +406,56 @@ input[type=submit]:hover {
   clear: both;
 }
 
+.user-page .user-card-a {
+  width: 303px;
+  height: 477px;
+  background-color: inherit;
+}
+
+.user-page .user-card-b {
+  width: 903px;
+  height: 477px;
+  margin-left: -180px;
+  background-color: inherit;
+}
+
+.row li {
+  list-style: none;
+}
+
+.row .btn {
+  background-color: inherit;
+  border: none;
+  color: #727070;
+  width: 90%;
+}
+
+.row .btn:hover {
+  background-color: #ffffff;
+  border-color: #fed9d9;
+  color: #000;
+  width: 90%;
+}
+
+.customer-email {
+  margin-left: 85px;
+  margin-top: -30px;
+  font-size: smaller;
+  font-weight: lighter;
+  color: #727070;
+}
+
+.customer-answer {
+  font-size: smaller;
+  font-weight: lighter;
+  color: #727070;
+  margin: 0;
+}
 
 @media screen and (max-width: 600px) {
-  .body-wrap, .column, input {
+  .body-wrap,
+  .column,
+  input {
     width: 100%;
   }
 }
