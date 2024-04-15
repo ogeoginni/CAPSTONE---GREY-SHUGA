@@ -1,11 +1,11 @@
-$(document).ready(function () {
-  $("#testimonial-slider").owlCarousel({
-    items: 3,
-    itemsDesktop: [1000, 3],
-    itemsDesktopSmall: [979, 2],
-    itemsTablet: [768, 2],
-    itemsMobile: [650, 1],
-    pagination: true,
-    autoPlay: true,
-  });
-});
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
